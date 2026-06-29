@@ -327,18 +327,17 @@ img {
 }
 
 .thesis-topic {
-  margin: 20px 0 0;
-  padding: 15px 17px;
-  border-left: 4px solid var(--accent);
-  border-radius: var(--radius);
-  background: #f7fbf9;
+  margin: 18px 0 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
   color: var(--ink);
-  font-weight: 750;
+  font-weight: 720;
 }
 
 .thesis-topic span {
-  display: block;
-  margin-bottom: 4px;
+  display: inline;
+  margin-right: 0.45rem;
   color: var(--accent-strong);
   font-size: 0.78rem;
   font-weight: 850;
@@ -657,11 +656,18 @@ h4 {
 }
 
 .contact-band {
-  background: #ecf5f8;
+  position: relative;
+  background:
+    linear-gradient(90deg, rgba(236, 245, 248, 0.97), rgba(236, 245, 248, 0.88)),
+    url("../images/Banner.jpg") center 48% / cover no-repeat;
+}
+
+.contact-band .section-inner {
+  position: relative;
 }
 
 .contact-lead {
-  color: var(--muted);
+  color: #33413e;
   font-size: 1.05rem;
   max-width: 520px;
 }
@@ -674,14 +680,42 @@ h4 {
 
 .contact-links a {
   display: grid;
-  gap: 4px;
+  grid-template-columns: 44px minmax(0, 1fr);
+  align-items: center;
+  gap: 14px;
   padding: 18px 20px;
+  background: rgba(255, 255, 255, 0.93);
   color: var(--ink);
   text-decoration: none;
   box-shadow: none;
 }
 
-.contact-links span {
+.contact-links a:hover {
+  border-color: rgba(8, 127, 115, 0.34);
+  background: #ffffff;
+}
+
+.contact-icon {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #ffffff;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.contact-copy {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.contact-label {
   color: var(--gold);
   font-size: 0.76rem;
   font-weight: 850;
