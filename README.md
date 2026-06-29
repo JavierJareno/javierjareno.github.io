@@ -5,8 +5,8 @@ Static GitHub Pages portfolio for `javierjareno.github.io`.
 ## Structure
 
 - `index.html`: all portfolio content and links.
-- `assets/css/styles.css`: visual design, responsive layout, and dark mode.
-- `assets/js/main.js`: mobile navigation and dark-mode toggle.
+- `assets/css/styles.css`: visual design and responsive light-mode layout.
+- `assets/js/main.js`: mobile navigation and fixed-header behavior.
 - `assets/images/Banner.jpg`: banner image used as the homepage hero background.
 - `assets/images/Perfil.jpg`: profile photo displayed as a circular portrait.
 
