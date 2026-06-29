@@ -9,7 +9,6 @@ Static GitHub Pages portfolio for `javierjareno.github.io`.
 - `assets/js/main.js`: mobile navigation and dark-mode toggle.
 - `assets/images/Banner.jpg`: banner image used as the homepage hero background.
 - `assets/images/Perfil.jpg`: profile photo displayed as a circular portrait.
-- `CVN_JavierJareno.pdf`: downloadable CVN linked from the hero.
 
 ## Updating Content
 
